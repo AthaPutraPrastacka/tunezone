@@ -8,6 +8,34 @@
     android:background="#2A2A2A"
     tools:context=".Setting">
 
+    <TextView
+        android:id="@+id/tvUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="176dp"
+        android:text="User ID: "
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <ImageView
+        android:id="@+id/btnEmailVerify"
+        android:layout_width="343dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:srcCompat="@drawable/btnverify" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="37dp"
@@ -66,7 +94,7 @@
         app:srcCompat="@drawable/not" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/btnSignOut"
         android:layout_width="351dp"
         android:layout_height="52dp"
         android:layout_marginStart="30dp"

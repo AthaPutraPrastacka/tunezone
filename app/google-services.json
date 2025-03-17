@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "740734489847",
+    "project_id": "tunezone-292a8",
+    "storage_bucket": "tunezone-292a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740734489847:android:83770cd72993aee4aa6ff2",
+        "android_client_info": {
+          "package_name": "com.atha.pas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740734489847-1qcdpcss37vi0m0ido5huci1gc5e6fan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atha.pas",
+            "certificate_hash": "ab1a76bb8ea9025ce7a2bd96681cae567609f363"
+          }
+        },
+        {
+          "client_id": "740734489847-gl66vmd7io5ppoc9gl008hab180260fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90K0TqnjOOEDfB1dlMEghCizbv05njXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740734489847-gl66vmd7io5ppoc9gl008hab180260fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
