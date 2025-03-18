@@ -10,6 +10,36 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="280dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoo" />
+
+    <TextView
+        android:id="@+id/tvVerif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Email Anda telah berhasil diverifikasi"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvNotverif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Email belum diverifikasi"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
@@ -40,4 +70,5 @@
         android:layout_width="351dp"
         android:layout_height="65dp"
         app:srcCompat="@drawable/btnsignout" />
+
 </LinearLayout>

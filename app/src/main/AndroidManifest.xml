@@ -16,19 +16,10 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EmailVerif"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Setting"
-            android:exported="false" />
-        <activity
-            android:name=".registerr"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
             android:exported="false" />
         <activity
             android:name=".Home"
@@ -46,7 +37,7 @@
             android:name=".PlayingNow"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

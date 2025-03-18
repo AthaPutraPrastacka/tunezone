@@ -31,6 +31,7 @@ class SignUpActivity : AppCompatActivity(), View.OnClickListener {
                 createAccount(email, password)
             }
             R.id.tvSignIn -> {
+                // Kembali ke halaman SignIn
                 val intent = Intent(this, SignInActivity::class.java)
                 startActivity(intent)
                 finish()

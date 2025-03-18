@@ -89,8 +89,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Sembunyikan tombol verifikasi email jika email sudah terverifikasi
             if (it.isEmailVerified) {
                 binding.btnEmailVerify.visibility = View.GONE
+                binding.tvNotverif.visibility = View.GONE
+                binding.tvVerif.visibility = View.VISIBLE
             } else {
                 binding.btnEmailVerify.visibility = View.VISIBLE
+                binding.tvNotverif.visibility = View.VISIBLE
+                binding.tvVerif.visibility = View.GONE
             }
         }
     }
